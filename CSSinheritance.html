@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidera/CSSinherit</title>
+    <style>
+        h2{
+            text-decoration: underline;
+            padding-left: 25px;
+            margin-bottom: -8px;
+        }
+        main{
+            padding: 10px;
+        }
+        #likes{
+            color: blueviolet;
+            font-size: 20px;
+            border: 1px solid gray;
+        }
+        .dis{
+            color: green;
+            font-size: 16px;
+            padding: 1em;
+            margin-left: 9px;
+        }
+        .dis > li > ul > li{
+            color: red;
+            font-size: 14px;
+            text-transform: uppercase ;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>My Likes</h2>
+        <ol id="likes">
+            <li>I loveeeeeee Spaghetti</li>
+            <li>Ice Tea and Cola drinks</li>
+            <li>And listening to music</li>
+            <li>A movie freak too</li>
+            <li>And watching docuseries</li>
+            <li>And experimenting with food</li>
+            <li>I read books too</li>
+        </ol>
+        <h2>My Dislikes</h2>
+        <ul class="dis">
+            <li>I really do not like pain</li>
+            <li>Snakes ewwwww</li>
+            <li>And anything that crawls e.g
+                <ul class="eg">
+                    <li>geckos</li>
+                    <li>roaches</li>
+                    <li>and slimy ones too</li>
+                </ul>
+            </li>
+            <li>I dislike noise</li>
+            <li>And disorganized places</li>
+            <li>And bitter things</li>
+            <li>I no like stress</li>
+        </ul>
+    </main>
+    
+</body>
+</html>
